@@ -1,0 +1,77 @@
+﻿<Page
+    x:Class="LeaderProgram.nworth"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LeaderProgram"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid FocusVisualSecondaryBrush="#99FFFFFF" Background="#283747" HorizontalAlignment="Stretch" Margin="0,-2,0,2" VerticalAlignment="Stretch">
+
+            <TextBlock HorizontalAlignment="Left" Margin="291,25,0,0" Text="Net Worth" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FontFamily="Berlin Sans FB Demi" FontStyle="Normal" FontWeight="Bold" Height="76" Width="284" SelectionChanged="TextBlock_SelectionChanged"/>
+            <SplitView HorizontalAlignment="Left" Height="907" VerticalAlignment="Top" Background="DarkGreen" Width="543" Margin="1347,72,0,0">
+
+            </SplitView>
+            <SplitView HorizontalAlignment="Left" Height="969" Margin="309,83,0,0" VerticalAlignment="Top" Width="988" Background="SkyBlue">
+                <Grid>
+
+
+                    <TextBlock HorizontalAlignment="Left" Margin="46,10,0,0" Text="Cash" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="16,52,0,0" Text="Checking/ Savings" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-1.96,-6.55" FontSize="16"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,47,0,0" Text="TextBox" VerticalAlignment="Top" Height="16" TextChanged="TextBox_TextChanged_2"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="16,89,0,0" Text="Money Market /CD" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" SelectionChanged="TextBlock_SelectionChanged_1"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="66,754,0,0" Text="Homr Equaity" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="5,273,0,0" Text="After Tax Inverstments" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="56,620,0,0" Text="Primary Home" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,435,0,0" Text="Pre-Tax Investments" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="12,123,0,0" Text="College Savings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,84,0,0" Text="TextBox" VerticalAlignment="Top" Height="21" TextChanged="TextBox_TextChanged"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,145,0,0" Text="TextBox" VerticalAlignment="Top" Height="13"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,177,0,0" Text="TextBox" VerticalAlignment="Top" Height="7"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,209,0,0" Text="TextBox" VerticalAlignment="Top" Height="27"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,241,0,0" Text="TextBox" VerticalAlignment="Top" Height="30"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="80,786,0,0" Text="Car Lones" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="86,722,0,0" Text="Mortages" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,692,0,0" Text="Debt" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="0.721,0.188" FontWeight="Bold"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,300,0,0" Text="TextBox" VerticalAlignment="Top" Height="23"/>
+                    <TextBlock HorizontalAlignment="Left" Text="Vaction Home" TextWrapping="Wrap" VerticalAlignment="Top" Margin="55,652,0,0" FontSize="16"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,332,0,0" Text="TextBox" VerticalAlignment="Top" Height="20"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,364,0,0" Text="TextBox" VerticalAlignment="Top" Height="20"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,396,0,0" Text="TextBox" VerticalAlignment="Top" Height="22"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,452,0,0" Text="TextBox" VerticalAlignment="Top" Height="22"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="5,585,0,0" Text="Personal USe Assests" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,516,0,0" Text="TextBox" VerticalAlignment="Top" Height="22"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,484,0,0" Text="TextBox" VerticalAlignment="Top" Height="28"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,548,0,0" Text="TextBox" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,614,0,0" Text="TextBox" VerticalAlignment="Top" Height="25" TextChanged="TextBox_TextChanged_1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,647,0,0" Text="TextBox" VerticalAlignment="Top" Height="24"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="5,818,0,0" Text="Peronal/ Student Loans" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="69,850,0,0" Text="Credit Card" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="109,882,0,0" Text="Other" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,781,0,0" Text="TextBox" VerticalAlignment="Top" Height="30"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,749,0,0" Text="TextBox" VerticalAlignment="Top" Height="26"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,877,0,0" Text="TextBox" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,845,0,0" Text="TextBox" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,813,0,0" Text="TextBox" VerticalAlignment="Top" Height="22"/>
+                    <TextBox HorizontalAlignment="Left" Margin="174,717,0,0" Text="TextBox" VerticalAlignment="Top" Height="26"/>
+                    <TextBox HorizontalAlignment="Left" Margin="276,893,0,0" Text="TextBox" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="276,252,0,0" Text="TextBox" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="276,663,0,0" Text="TextBox" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="276,100,0,0" Text="TextBox" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="276,414,0,0" Text="TextBox" VerticalAlignment="Top"/>
+
+
+                </Grid>
+
+            </SplitView>
+            <ScrollBar Margin="1900,438,0,0" VerticalAlignment="Top" Maximum="50" Minimum="10" Value="80" ViewportSize="30" Height="49" FontSize="18" Width="20" AutomationProperties.ItemStatus="" />
+            <ScrollViewer HorizontalAlignment="Left" Margin="1849,266,0,0" VerticalAlignment="Top" Width="61"/>
+
+
+
+        </Grid>
+    </Grid>
+</Page>

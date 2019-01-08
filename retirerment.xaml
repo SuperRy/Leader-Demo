@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="LeaderProgram.retirerment"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LeaderProgram"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid FocusVisualSecondaryBrush="#99FFFFFF" Background="#283747">
+
+        <TextBlock HorizontalAlignment="Left" Margin="295,44,0,0" Text="Retierment" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FontFamily="Berlin Sans FB Demi" FontStyle="Normal" FontWeight="Bold" Height="76" Width="284"/>
+        <SplitView HorizontalAlignment="Left" Height="907" VerticalAlignment="Top" Background="DarkGreen" Width="543" Margin="1343,133,0,0">
+
+        </SplitView>
+
+        <SplitView HorizontalAlignment="Left" Height="100" Margin="546,366,0,0" VerticalAlignment="Top">
+
+            <SplitView.Pane>
+                <Grid/>
+
+
+            </SplitView.Pane>
+
+            <Grid Margin="-275,-214,-374,-562" VerticalAlignment="Stretch" Background="DarkKhaki">
+                <TextBlock HorizontalAlignment="Left" Margin="25,20,0,0" Text="Rent/Morage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" Margin="25,62,0,0" Text="Real Estate Taxes" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+                <TextBlock HorizontalAlignment="Left" Margin="25,188,0,0" Text="Healt Care Vists " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+                <TextBlock HorizontalAlignment="Left" Margin="25,287,0,0" Text="Charitable Give" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+                <TextBlock HorizontalAlignment="Left" Margin="25,120,0,0" Text="Health Insureance Premiums" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="210"/>
+                <TextBlock HorizontalAlignment="Left" Margin="25,229,0,0" Text="Perscriptions " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" Margin="23,343,0,0" Text="Living Expensives" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,20,0,0" Text="TextBox" VerticalAlignment="Top" Height="12" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,57,0,0" Text="TextBox" VerticalAlignment="Top" Height="19" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,120,0,0" Text="TextBox" VerticalAlignment="Top" Height="16" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,188,0,0" Text="TextBox" VerticalAlignment="Top" Height="27" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,225,0,0" Text="TextBox" VerticalAlignment="Top" RenderTransformOrigin="0.057,0.25" Height="21" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,287,0,0" Text="TextBox" VerticalAlignment="Top" Height="13" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,343,0,0" Text="TextBox" VerticalAlignment="Top" Height="27" Width="91"/>
+                <TextBlock HorizontalAlignment="Left" Margin="14,544,0,0" Text="Spouce (Pre-Tax) Savings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,584,0,0" Text="Client Employrt Match" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,618,0,0" Text="Roth/Tradional IRA Savings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                <TextBlock HorizontalAlignment="Left" Margin="7,653,0,0" Text="Other Invesrtments Savings (For Retierment)" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="201"/>
+                <TextBlock HorizontalAlignment="Left" Margin="138,722,0,0" Text="Total Savings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,503,0,0" Text="TextBox" VerticalAlignment="Top" Height="22" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,539,0,0" Text="TextBox" VerticalAlignment="Top" Height="21" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,576,0,0" Text="TextBox" VerticalAlignment="Top" Height="21" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,613,0,0" Text="TextBox" VerticalAlignment="Top" Height="20" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,653,0,0" Text="TextBox" VerticalAlignment="Top" Height="21" Width="91"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,715,0,0" Text="TextBox" VerticalAlignment="Top" Height="10" Width="91"/>
+                <TextBlock HorizontalAlignment="Left" Margin="104,404,0,0" Text="Total Expensise" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+                <TextBox HorizontalAlignment="Left" Margin="231,404,0,0" Text="TextBox" VerticalAlignment="Top" Width="91" Height="21"/>
+
+            </Grid>
+        </SplitView>
+        <TextBlock HorizontalAlignment="Left" Margin="280,596,0,0" Text="Current Monthly Savings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Height="47" Width="287" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="280,653,0,0" Text="Client (Pre- Tax ) Savings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+    </Grid>
+</Page>
